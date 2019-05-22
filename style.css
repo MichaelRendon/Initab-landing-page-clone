@@ -1,81 +1,84 @@
 body {
+    margin: auto 0;
     background-color: #1f253d;
+    color: #f5f5f6;    
 }
 
 .container {
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 4fr 1fr;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-gap: 1px;
+    grid-template-columns: 150px 2fr 4fr 2fr;
+    grid-template-rows: 5fr 5fr;
 }
 
 .console {
+    background: #484756;
     grid-row: 1/3;
-    align-self: left 10px;
 }
 
 .history {
+    background: #292b33;
     grid-column: 3/4;
+    grid-row: 1/2;   
+    height: 50vh;
 }
 
 .news {
-    grid-colum: 2/3;
+    background: #292b33;
+    grid-column: 2/3;
     grid-row: 1/3;
 }
 
 .github {
+    background: #292b33;
     grid-column: 4/5;
-    grid-row: 1/3;
-    align-self: right 10px
+    grid-row: 1/3;    
 }
 
 .clock{
+    background: #292b33;    
     grid-row: 2/3:;
 }
+
 .zone {
-    cursor:pointer;
-    /* display:inline-block; */
-    text-align: center;
-    font-size:10em;
-    border-radius:4px;
-    border:1px solid #bbb;
-    transition: all 0.3s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: .8em;
+} 
+
+/* NAV */
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 1em;
+    margin: 0;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
-.zone:hover {
-    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+.push {
+    display: flex;
+    align-items: flex-end;
+    color: #f5f5f6;
+    text-decoration: none;
+    list-style: none;
 }
 
-
-
-/* History */
-.fox{
-    background: ##151b33; /* Old browsers */
-    
+.newsFeed-text {
+    display: flex;
 }
 
-/* News Feed */
-.lion{
-    background: #151b33; 
-   } 
-
-/* Clock */
-.tiger{
-    background: #151b33; /
-    
+li {
+    padding: 10px;
 }
 
-/*  Left Console */
-.frog{
-    background: #7b83a3;
-    }
-
-/*  GitHub column */
-.rabbit{
-    background: #151b33; 
-    
+a {
+    color: #f5f5f6;
+    text-decoration: none;
 }
 
+h3 {
+
+}
