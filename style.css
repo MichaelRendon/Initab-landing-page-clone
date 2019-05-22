@@ -85,6 +85,14 @@ body {
   font-size: 13px;
 }
 
+.icon-border {
+    border-top-left-radius:2px;
+border-top-right-radius:2px;
+border-bottom-left-radius:2px;
+border-bottom-right-radius:2px;
+padding:3px 0px;
+}
+
 li {
     padding: 10px;
 }
