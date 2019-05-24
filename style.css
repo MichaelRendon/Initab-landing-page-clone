@@ -13,7 +13,7 @@
   font-family: monospace, sans-serif;
 }
 
-/* Main Nav */
+/* Main Nav left column */
 #main-nav{
   display: flex;
   flex-direction: column;
@@ -164,6 +164,8 @@ a {
   
 }
 
+/* CLOCK */
+
 #clock {
   display: flex;
   flex-direction: column;
@@ -233,9 +235,9 @@ a {
   font-size: .9em;
 }
 
-#github-arrows {
+#issues-pull {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   word-spacing: -5px;
 }
 
@@ -245,14 +247,18 @@ a {
 }
 
 #arrow-issue {
+  display: flex;
+  justify-content: center;
   color: #f1fa8c;
 }
 
 #arrow-pull {
+  display: flex;
+  justify-content: center;
   color: #ff79c6;
 }
 
-.box-github {
+.git-issues {
   display: ;
   border-bottom: 1px solid #484756;
   height: 50vh;
@@ -260,11 +266,11 @@ a {
   overflow-y: scroll;
 }
 
-.box-github::-webkit-scrollbar {
+.git-issues::-webkit-scrollbar {
   width: 0 !important;
 }
 
-.box-github .article {
+.git-issues .article {
   margin: -8em 0;
   margin-bottom: 3em;
   padding-left: .8em;
@@ -278,6 +284,7 @@ a {
   font-size: .8em;
 }
 
+/* AD SPACE lower right corner */
 #ad {
   display: flex;
   margin-top: 1.5em;
@@ -318,6 +325,9 @@ a {
 .fa-question, .fa-times {
   font-size: .8em;
 }
+
+
+/* MAIN NAV ICONS */
 
 .settings a {
   color: #80e5fc;
