@@ -1,97 +1,165 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Initab Clone</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <title>Initab Landing Page</title>
 </head>
 <body>
-  <div class='container'>
-  <nav class="zone github">
-    <h2>GITHUB ISSUES HISTORY</h2>
-    <p>switch to gitlab</p>
-    <br>
-    <h2>ISSUES PULL REQUESTS</h2>
-    <br><br>
-    <p>Repo: tannerlins</p>
-    <p>Issue #370</p>
-    <p>Looking to render API data in the table.</p>
-  </nav>
-  <!-- UPPER NAV-BAR LINKS -->
-  
-  <nav class="console main-nav">
-  <div class="nav-icons">
-    <span id="settings"> 
-      <i class="fas fa-wrench icon"></i> 
-    </span>
-    <span>SETTINGS</span>
-  </div><br>
-  <div>
-    <span id="gists"> 
-      <i class="fas fa-code"></i> 
-    </span>
-    <span>GISTS</span>
-  </div><br>
-  <div>
-    <span id="nav-icon-box"> 
-      <i class="fab fa-stack-overflow"></i> 
-    </span>
-    <span>STACK OVERFLOW</span>
-</div><br><div>
-    <span id="nav-icon-box"> 
-      <i class="fas fa-chart-line"></i> 
-    </span>
-    <span>TRENDING</span>
-</div><br>
-<div>
-    <span id="nav-icon-box"> 
-      <i class="fas fa-pencil-alt"></i> 
-    </span>
-    <span>SCRATCH PAD</span>
-</div><br>
-<div>
-    <span id="nav-icon-box"> 
-      <i class="far fa-lightbulb"></i>
-    </span>
-    <span>PLAYGROUND </span><span><i class="fas fa-lock"></i></span>
-</div><br>
-<div>
-    <span id="nav-icon-box"> 
-      <i class="fas fa-question"></i> 
-    </span>
-    <span>HELP/INTRO</span>
-  </div></nav><!-- </ul> -->
-    <!-- LOWER NAV-BAR LINKS -->
-  <nav class ="lower-nav">
-    <div><span id="initab-icon"><a href="https://initab.com/" target="_blank"><img src="https://initab.com/assets/images/initab_logo_white.png"></a></span></div>
-    <br>
-  <div id="push-icons">      
-      <span id="facebook-icon"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></span>
-      <span id="linkedin-icon"><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in "></i></a></span>
-      <span id="github-icon"><a href="https://github.com/MichaelRendon" target="_blank"><i class="fab fa-github"></i></a></span> 
+  <div class="container">
+    <div id="main-nav">
+      <div id="nav-icons">
+        <p class="settings"><a href=""><span id="settings"><i class="fas fa-wrench"></i></span>  <span>SETTINGS</span></a></p>
+        <p class="gists"><a href=""><span id="gists"><i class="fas fa-pencil-alt"></i></span>  <span>GISTS</span></a></p>
+        <p class="stack"><a href=""><span id="stack"><i class="fab fa-stack-overflow"></i></span>  <span>STACK OVERFLOW</span></a></p>
+        <p class="trending"><a href=""><span id="trending"><i class="fas fa-chart-line"></i></span>  <span>TRENDING</span></a></p>
+        <p class="scratch"><a href=""><span id="scratch"><i class="fas fa-pencil-alt"></i></span>  <span>SCRATCH PAD</span></a></p>
+        <p class="playground"><a href=""><span id="playground"><i class="far fa-lightbulb"></i></span>   <span>PLAYGROUND</span></a> <span id="lock"><i class="fas fa-lock"></i></span></p>
+        <p class="help"><a href=""><span id="help"><i class="fas fa-question"></i></span>  <span>HELP/INTRO</span></a></p>
+      </div>
+      <div class="lower-nav">
+        <div id="initab">
+          <a href="https://initab.com" target="_blank"><img src="https://initab.com/assets/images/initab_logo_white.png" alt="Initab"></a>
+        </div>
+        <div id="social">
+          <a id="facebook" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a id="linkedin" href="https://www.linkedin.com/in/michael-rendon-89658739/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a id="github" href="https://github.com/MichaelRendon" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
     </div>
-  </nav>
-  
-  <nav class="zone news">
-    <h2>POPULAR ON R/JAVASCRIPT</h2>
-      <br><img alt="redit icon" src="">
-      <p>Please add a valid 'subreddit' in the SETTINGS panel.</p>
-      <p>If you've already added one, it could be that Reddit is temporarily unavailable.</p>
-  </nav>
-  <nav class="zone history">
-    <h2>RELEVANT JAVASCRIPT HISTORY</h2>
-      <br>
-      <h3>JavaScript Function Parameters</h3>
-      <h3>React - A JavaScript library</h3>
-      <h3>JavaScript for Beginners: Async</h3>
-      <h3>JavaScript Function Invocation</h3>
-      <h3>JavaScript Functions</h3>
-      <h3>JavaScript Return Statement</h3>
-  </nav>
-  <nav class="zone clock">
-    <h1>CLOCK</h1>
-    <p>? Did you know you can add CUSTOM LINKS to display in this section?</p>
-  </nav>
-  </div>
+    
+    <div class="newsfeed">
+      <div class="popular">
+        <h3><span class="newsheader"><i class="fab fa-reddit-alien"></i> POPULAR ON R/JAVASCRIPT</span></h3>
+      </div>
+      <div class="pop-article">
+        <p>The revolutionary project management tool is here and it's visual. Start Your Free Trial Now.</p>
+        <p class="pop-link"><a href="">Start Free Trial</a></p>
+        <p class="link-sponsor">Sponsored by <a href="">monday</a></p>
+      </div>
+      <div class="pop-article">
+        <p>A teacher at my school was sick of remembering all the different bell schedules, so I created an app to make things easier. The whole school loves it.</p>
+        <p class="pop-link">Posted by: <a href="">u/scheduled_nightmare</a></p>
+        <p class="dark-font">Reddit Score: 259</p>
+        <p class="link-to-comments"><a href="">Link to Comments</a></p>
+      </div>
+      <div class="pop-article">
+        <p>Autoslap - a Node CLI tool that automatically installs and configures ESLint, Prettier, Husky and lint-staged</p>
+        <p class="pop-link">Posted by: <a href="">u/paolostyle</a></p>
+        <p class="dark-font">Reddit Score: 13</p>
+        <p class="link-to-comments"><a href="">Link to Comments</a></p>
+      </div>
+      <div class="pop-article">
+        <p>What's the most dirty thing you've had to work with in code and how did you solve them?</p>
+        <p class="pop-link">Posted by: <a href="">u/SleepingAriadne</a></p>
+        <p class="dark-font">Reddit Score: 156</p>
+      </div>
+    </div>
+
+    <div class="center-grid">
+      <div id="history-header">
+        <h3 class="newsheader"><i class="far fa-clock"></i> RELEVANT JAVASCRIPT HISTORY</h3>
+      </div>
+      <div class="box-js" id="pop-history">
+        <div class="text-days">
+          <p class="pop-history"><span class="span-main" style="color: blue"><i class="fab fa-twitter"></i></span> <a href="">Relay ' A JavaScript framework for building data-driven React...</a></p>
+          <p class="days">2 days ago</p>
+        </div>
+        <div class="text-days">
+          <p class="pop-history"><span class="span-main" style="color: blue"><i class="fab fa-twitter"></i></span> <a href="">Lily on Twitter: "Day20 of #100DaysOfCode I was coding.."</a></p>
+          <p class="days">4 days ago</p>
+        </div>  
+        <div class="text-days">
+          <p class="pop-history"><span class="span-main" style="color: blue"><i class="fab fa-twitter"></i></span> <a href="">Online Interactive Javascript (JS) Cheat Sheet</a></p>
+          <p class="days">4 days ago</p>
+        </div>
+        <div class="text-days">
+          <p class="pop-history"><span class="span-main" style="color: blue"><i class="fab fa-twitter"></i></span> <a href="">Useful Javascript Coding Links</a></p>
+          <p class="days">5 days ago</p>
+        </div>
+        <div class="text-days">
+          <p class="pop-history"><span class="span-main" style="color: blue"><i class="fab fa-twitter"></i></span> <a href="">Senior Developer on Twitter: "To the vultures who point out C.."</a></p>
+          <p class="days">5 days ago</p>
+        </div>
+        <div class="text-days">
+          <p class="pop-history"><span class="span-main" style="color: blue"><i class="fab fa-twitter"></i></span> <a href="">How to Handle Monetary Values in JavaScript | frontstuff</a></p>
+          <p class="days">5 days ago</p>
+        </div>
+        <div class="text-days">
+          <p class="pop-history"><span class="span-main" style="color: blue"><i class="fab fa-twitter"></i></span> <a href="">JavaScript | MDN</a></p>
+          <p class="days">6 days ago</p>
+        </div>  
+        <div class="text-days">
+          <p class="pop-history"><span class="span-main" style="color: blue"><i class="fab fa-twitter"></i></span> <a href="">Extra news for scrolling purposes..</a></p>
+          <p class="days">7 days ago</p>
+        </div>
+        <div class="text-days">
+          <p class="pop-history"><span class="span-main" style="color: blue"><i class="fab fa-twitter"></i></span> <a href="">More extra news for scrolling...</a></p>
+          <p class="days">8 days ago</p>
+        </div>
+      </div>
+      <div class="box-js" id="clock">
+        <div class="text-time">
+          <h1 id="time"></h1>
+          <h2 id="change"></h2>
+        </div>
+        <div id="date"></div>
+        <div id="text-below-clock">
+          <p><span class="below-clock"><i class="fas fa-question"></i></span> Did you know you can add CUSTOM LINKS to display in this section?</p>
+          <p>Open the SETTINGS panel and add the URLs of your favorites sites to the 'CUSTOM LINKS' textarea.</p>
+          <p><span id="click-suppress"><i class="fas fa-times"></i></span> Got it! Don't show me this again.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="github-article" class="newsfeed">
+      <div class="newsheader">
+        <h3><i class="fab fa-github-alt"></i> GITHUB ISSUES HISTORY</h3>
+        <a href="" class="dark-font">switch to gitlab</a>
+      </div>
+      <div id="github-arrows">
+        <div class="arrow-issues">
+          <a href="" id="issue">ISSUES</a>
+          <p id="arrow-issue"><i class="fas fa-caret-up"></i></p>   
+        </div>
+        <div class="arrow-pull">
+          <a href="" class="pull">PULL REQUESTS</a>
+          <p id="arrow-pull"><i class="fas fa-caret-up"></i></p> 
+        </div>
+      </div>
+      <div class="box-github">
+        <div class="github-article">
+          <a href="" class="dark-font">Repo: GoogleChrome/puppeteer</a>
+          <p id="issue">Issue #1341</p>
+          <p class="text-github">How to get the inner text of elements from the return values of page.$$</p>
+        </div>
+        <div class="github-article">
+          <a href="" class="dark-font">Repo: GoogleChrome/puppeteer</a>
+          <p id="issue">Issue #3051</p>
+          <p class="text-github">How to get text from a element ?</p>
+        </div>
+        <div class="github-article">
+          <a href="" class="dark-font">Repo: apollographql/graphql-tag</a>
+          <p id="issue">Issue #131</p>
+          <p class="text-github">Parse variables</p>
+        </div>
+        <div class="github-article">
+          <a href="" class="dark-font">Repo: apollographql/apollo-client</a>
+          <p id="issue">Issue #3967</p>
+          <p class="text-github">It is not possible to pass Authorization header to WebSocket</p>
+        </div>
+        <div class="github-article">
+          <a href="" class="dark-font">Repo: ForgiveMistake/thank-you</a>
+          <p id="issue">Issue #293</p>
+          <p class="text-github">It is not about thanks and apologize, but how you face it. Keep struggle, fight on.</p>
+        </div>
+      </div>
+      <div id="ad">
+        <h2 class="ad box">Place your custom advertisement here!</h2>
+      </div>
+    </div>
+
+  <script src="./clock.js"></script>
 </body>
 </html>
