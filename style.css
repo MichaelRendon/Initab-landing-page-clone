@@ -144,6 +144,7 @@ a {
 #pop-history .text-days {
   display: flex;
   justify-content: space-between;
+  align-items: right;
 }
 
 .pop-history {
@@ -161,6 +162,7 @@ a {
 .days {
   color: #858794;
   font-size: .9em;
+  width: auto;
   
 }
 
@@ -303,6 +305,7 @@ a {
   height: 14vh;
   margin: .5em;
   text-align: center;
+  justify-content: center;
   padding: 1em 0;
   font-size: .8em;
   color: #7ee1f7;
